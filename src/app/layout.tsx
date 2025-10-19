@@ -1,13 +1,13 @@
 import type { Metadata } from 'next'
-import { Poppins } from 'next/font/google'
+import { DM_Sans } from 'next/font/google'
 import './globals.css'
 import { Header } from '@/layouts/Header'
 import { Footer } from '@/layouts/Footer'
 
-const poppins = Poppins({
-  variable: '--font-poppins',
+const dmsans = DM_Sans({
+  variable: '--font-dmsans',
   subsets: ['latin'],
-  weight: ['400', '500', '600', '700'], // add the weights you need
+  weight: ['400', '500', '600', '700'],
 })
 
 export const metadata: Metadata = {
@@ -22,7 +22,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='en'>
-      <body className={`${poppins.variable} antialiased`}>
+      <body className={`${dmsans.variable} antialiased`}>
         <Header />
         {children}
         <Footer />

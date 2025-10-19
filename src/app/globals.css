@@ -2,15 +2,17 @@
 
 :root {
   --background: #ffffff;
+  --gradient-start: #32eaed;
+  --gradient-end: #9cc6fe;
 }
 
 @theme inline {
   --color-background: var(--background);
-  --font-poppins: var(--font-poppins), sans-serif;
+  --font-dmsans: var(--font-dmsans), sans-serif;
 }
 
 body {
   background: var(--background);
   color: white;
-  font-family: var(--font-poppins), sans-serif;
+  font-family: var(--font-dmsans), sans-serif;
 }
