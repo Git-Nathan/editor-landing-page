@@ -1,30 +1,40 @@
-import { Button } from '@/components/Button'
 import { AppLink } from '@/components/Link'
-import { MenuIcon } from '@/icons/MenuIcon'
+import Image from 'next/image'
 
 export function Header() {
   return (
-    <div className='pointer-events-none fixed top-0 z-[100] w-full'>
-      <header className='pointer-events-none sticky top-0 z-40 mx-auto w-full max-w-[1440px] px-2 py-2'>
-        <div className='inset-0 flex justify-between overflow-hidden rounded-full border border-white/60 bg-white/20 bg-gradient-to-br px-5 py-4 backdrop-blur-lg'>
-          <p>Logo</p>
-          <nav>
-            <ul className='hidden items-center gap-2 font-medium text-neutral-900 lg:flex'>
+    <div className='fixed top-0 z-[100] w-full gap-4'>
+      <header className='sticky top-0 z-40 mx-auto w-full max-w-[1440px] px-2 py-2'>
+        <div className='inset-0 flex h-[60px] items-center justify-between overflow-hidden rounded-full border border-white/30 bg-neutral-950/5 pr-[10px] pl-5 shadow-[inset_0_0_8px_1px_hsl(0,0%,100%,0.2)] backdrop-blur-[16px]'>
+          <Image
+            src={'/assets/logo.png'}
+            alt='Logo'
+            className='cursor-pointer'
+            width={40}
+            height={40}
+          />
+          <nav className='absolute left-1/2 -translate-x-1/2'>
+            <ul className='hidden items-center gap-5 font-medium text-neutral-900 lg:flex'>
               <li>
                 <AppLink href='#home'>Home</AppLink>
               </li>
               <li>
-                <AppLink href='#about'>About</AppLink>
+                <AppLink href='#about'>Portfolio</AppLink>
               </li>
               <li>
-                <AppLink href='#services'>Services</AppLink>
+                <AppLink href='#services'>Pricing</AppLink>
               </li>
               <li>
                 <AppLink href='#contact'>Contact</AppLink>
               </li>
             </ul>
           </nav>
-          <Button icon={<MenuIcon />} />
+          <AppLink
+            href='#'
+            className='border-none bg-gradient-to-tr from-[#f58529] via-[#dd2a7b] to-[#8134af] text-white shadow-[inset_0_0_6px_1px_hsl(0,0%,100%,0.3)]'
+          >
+            Message Us on Instagram
+          </AppLink>
         </div>
       </header>
     </div>
