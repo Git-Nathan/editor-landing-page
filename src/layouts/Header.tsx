@@ -1,4 +1,6 @@
+import { Button } from '@/components/Button'
 import { AppLink } from '@/components/Link'
+import { MenuIcon } from '@/icons/MenuIcon'
 import Image from 'next/image'
 
 export function Header() {
@@ -29,12 +31,19 @@ export function Header() {
               </li>
             </ul>
           </nav>
-          <AppLink
-            href='#'
-            className='border-none bg-gradient-to-tr from-[#f58529] via-[#dd2a7b] to-[#8134af] text-white shadow-[inset_0_0_6px_1px_hsl(0,0%,100%,0.3)]'
-          >
-            Message Us on Instagram
-          </AppLink>
+          <div className='flex items-center gap-2'>
+            <AppLink
+              href='#'
+              className='border-none bg-gradient-to-tr from-[#f58529] via-[#dd2a7b] to-[#8134af] text-sm text-white shadow-[inset_0_0_6px_1px_hsl(0,0%,100%,0.3)] lg:text-base'
+            >
+              Message Us on Instagram
+            </AppLink>
+            <Button
+              className='bg-transparent p-1'
+              variant='solid'
+              icon={<MenuIcon />}
+            />
+          </div>
         </div>
       </header>
     </div>
