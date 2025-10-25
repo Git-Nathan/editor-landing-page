@@ -22,10 +22,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='en'>
-      <body className={`${dmsans.variable} antialiased`}>
+      <body className={`${dmsans.variable} overflow-x-hidden antialiased`}>
         <Header />
         {children}
         <Footer />
+        <div id='mobile-sidebar-portal' />
       </body>
     </html>
   )
