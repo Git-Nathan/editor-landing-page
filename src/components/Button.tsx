@@ -15,19 +15,26 @@ export function Button({
 }: IButtonProps) {
   const getBaseClasses = () => {
     if (variant === 'solid')
-      return 'cursor-pointer rounded-lg bg-black px-3 py-2 text-white'
+      return 'cursor-pointer rounded-full bg-black px-5 py-2 text-white'
 
     if (variant === 'glass')
-      return 'overflow-hidden rounded-full border border-white/50 bg-white/30 px-4 py-2 text-[#323232] shadow-[inset_0_0_6px_1px_hsl(0,0%,100%,0.5)] backdrop-blur-[12px] transition-transform duration-200 ease-in-out hover:scale-105'
+      return 'overflow-hidden rounded-full border border-white/50 bg-white/30 px-4 py-2 text-[#323232] shadow-[inset_0_0_6px_1px_hsl(0,0%,100%,0.5)] backdrop-blur-[12px]'
 
     if (variant === 'darkGlass')
-      return 'overflow-hidden rounded-full border border-white/50 bg-black/35 px-4 py-2 text-white shadow-[inset_0_0_6px_1px_hsl(0,0%,100%,0.5)] backdrop-blur-[12px] transition-transform duration-200 ease-in-out hover:scale-105'
+      return 'overflow-hidden rounded-full border border-black/50 bg-black/60 px-4 py-2 text-white shadow-[inset_0_0_6px_1px_hsl(0,0%,0%,0.5)] backdrop-blur-[12px]'
 
     return
   }
 
+  const getHoverClasses = () => {
+    return 'transition-transform duration-200 ease-in-out hover:scale-105'
+  }
+
   return (
-    <button className={cn(getBaseClasses(), className)} {...props}>
+    <button
+      className={cn(getBaseClasses(), getHoverClasses(), className)}
+      {...props}
+    >
       {icon}
       {children}
     </button>
