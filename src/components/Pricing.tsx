@@ -8,13 +8,12 @@ const Pricing = () => {
           Boost your productivity
         </div>
         <div className='bg-gradient-to-b from-black to-[#002499] bg-clip-text py-6 text-center text-3xl font-bold tracking-tighter text-transparent md:text-4xl lg:text-5xl'>
-          A more effective way to track progress
+          Choose Your Package
         </div>
 
         <div className='mb-8 text-center text-lg md:text-xl'>
-          Effortlessly turn your ideas into a fully functional, responsive,
-          no-code SaaS website in just minutes with the set of free components
-          for Framer.
+          Transparent pricing, no hidden fees — just quality edits that sell
+          properties.
         </div>
       </div>
 

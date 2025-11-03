@@ -14,14 +14,13 @@ export function Button({
   ...props
 }: IButtonProps) {
   const getBaseClasses = () => {
-    if (variant === 'solid')
-      return 'cursor-pointer rounded-full bg-black px-5 py-2 text-white'
+    if (variant === 'solid') return 'bg-black px-5 py-2 text-white'
 
     if (variant === 'glass')
-      return 'overflow-hidden rounded-full border border-white/50 bg-white/30 px-4 py-2 text-[#323232] shadow-[inset_0_0_6px_1px_hsl(0,0%,100%,0.5)] backdrop-blur-[12px]'
+      return 'border border-white/50 bg-white/30 px-4 py-2 text-[#323232] shadow-[inset_0_0_6px_1px_hsl(0,0%,100%,0.5)] backdrop-blur-[12px]'
 
     if (variant === 'darkGlass')
-      return 'overflow-hidden rounded-full border border-black/50 bg-black/60 px-4 py-2 text-white shadow-[inset_0_0_6px_1px_hsl(0,0%,0%,0.5)] backdrop-blur-[12px]'
+      return 'border border-black/50 bg-black/60 px-4 py-2 text-white shadow-[inset_0_0_6px_1px_hsl(0,0%,0%,0.5)] backdrop-blur-[12px]'
 
     return
   }
@@ -32,7 +31,12 @@ export function Button({
 
   return (
     <button
-      className={cn(getBaseClasses(), getHoverClasses(), className)}
+      className={cn(
+        'cursor-pointer overflow-hidden rounded-full',
+        getBaseClasses(),
+        getHoverClasses(),
+        className,
+      )}
       {...props}
     >
       {icon}
