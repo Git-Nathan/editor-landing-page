@@ -3,9 +3,9 @@ import { IoMdCheckmark } from 'react-icons/io'
 const Pricing = () => {
   return (
     <div className='mb-8'>
-      <div className='mx-auto mt-16 mb-12 flex max-w-[550px] flex-col items-center px-12 font-medium'>
+      <div className='mx-auto mt-16 mb-12 flex max-w-[700px] flex-col items-center px-12 font-medium'>
         <div className='w-fit rounded-xl border-2 border-slate-300/80 p-0.5 px-3 text-sm'>
-          Boost your productivity
+          Boost your business
         </div>
         <div className='bg-gradient-to-b from-black to-[#002499] bg-clip-text py-6 text-center text-3xl font-bold tracking-tighter text-transparent md:text-4xl lg:text-5xl'>
           Choose Your Package
@@ -24,9 +24,6 @@ const Pricing = () => {
             <span className='text-5xl font-extrabold'>$0</span>
             <span className='font-semibold text-gray-600'>/month</span>
           </div>
-          <button className='mb-8 w-full cursor-pointer rounded-lg bg-black py-1.5 text-white'>
-            Get started for free
-          </button>
           <div className='flex flex-col gap-6'>
             <div>
               <IoMdCheckmark className='mr-2 inline' /> Up to 5 project members
@@ -58,9 +55,6 @@ const Pricing = () => {
             <span className='text-5xl font-extrabold'>$9</span>
             <span className='font-semibold text-gray-600'>/month</span>
           </div>
-          <button className='mb-8 w-full cursor-pointer rounded-lg bg-white py-1.5 font-medium text-black'>
-            Sign up now
-          </button>
           <div className='flex flex-col gap-6'>
             <div>
               <IoMdCheckmark className='mr-2 inline' /> Up to 50 project members
@@ -92,9 +86,6 @@ const Pricing = () => {
             <span className='text-5xl font-extrabold'>$19</span>
             <span className='font-semibold text-gray-600'>/month</span>
           </div>
-          <button className='mb-8 w-full cursor-pointer rounded-lg bg-black py-1.5 text-white'>
-            Sign up now
-          </button>
           <div className='flex flex-col gap-6'>
             <div>
               <IoMdCheckmark className='mr-2 inline' /> Up to 50 project members
