@@ -4,7 +4,8 @@
   --background: #ffffff;
   --gradient-start: #32eaed;
   --gradient-end: #9cc6fe;
-  --text-dark: #323232
+  --text-dark: #323232;
+  --brand-color: #808285;
 }
 
 @theme inline {

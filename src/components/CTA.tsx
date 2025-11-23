@@ -1,18 +1,11 @@
 'use client'
 
 import { useRef } from 'react'
-import { motion, useScroll, useTransform } from 'framer-motion'
+import { motion } from 'framer-motion'
 import { AppLink } from './Link'
 
 const CTA = () => {
   const sectionRef = useRef(null)
-
-  const { scrollYProgress } = useScroll({
-    target: sectionRef,
-    offset: ['start end', 'end start'],
-  })
-
-  const translateY = useTransform(scrollYProgress, [0, 1], [150, -150])
 
   return (
     <div
