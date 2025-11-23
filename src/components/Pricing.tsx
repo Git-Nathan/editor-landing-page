@@ -25,15 +25,16 @@ const Pricing = () => {
           </div>
           <div className='flex flex-col gap-3'>
             <div className='flex'>
-              <IoMdCheckmark className='mt-[3px] mr-2' /> Basic trimming &
-              merging
+              <IoMdCheckmark className='mt-[3px] mr-2 shrink-0' /> Basic
+              trimming & merging
             </div>
             <div className='flex'>
-              <IoMdCheckmark className='mt-[3px] mr-2' /> Balance overall colors
-              of the video
+              <IoMdCheckmark className='mt-[3px] mr-2 shrink-0' /> Balance
+              overall colors of the video
             </div>
             <div className='flex'>
-              <IoMdCheckmark className='mt-[3px] mr-2' /> Basic color correction
+              <IoMdCheckmark className='mt-[3px] mr-2 shrink-0' /> Basic color
+              correction
             </div>
           </div>
         </div>
@@ -50,24 +51,24 @@ const Pricing = () => {
           </div>
           <div className='flex flex-col gap-6'>
             <div className='flex'>
-              <IoMdCheckmark className='mt-[3px] mr-2' /> Smooth trimming paced
-              to transitions
+              <IoMdCheckmark className='mt-[3px] mr-2 shrink-0' /> Smooth
+              trimming paced to transitions
             </div>
             <div className='flex'>
-              <IoMdCheckmark className='mt-[3px] mr-2' /> Remove unnecessary
-              breaks and pauses
+              <IoMdCheckmark className='mt-[3px] mr-2 shrink-0' /> Remove
+              unnecessary breaks and pauses
             </div>
             <div className='flex'>
-              <IoMdCheckmark className='mt-[3px] mr-2' /> Improve visual flow
-              between scenes
+              <IoMdCheckmark className='mt-[3px] mr-2 shrink-0' /> Improve
+              visual flow between scenes
             </div>
             <div className='flex'>
-              <IoMdCheckmark className='mt-[3px] mr-2' /> Advanced color
-              adjustment
+              <IoMdCheckmark className='mt-[3px] mr-2 shrink-0' /> Advanced
+              color adjustment
             </div>
             <div className='flex'>
-              <IoMdCheckmark className='mt-[3px] mr-2' /> Modify brightness,
-              contrast, exposure, and saturation
+              <IoMdCheckmark className='mt-[3px] mr-2 shrink-0' /> Modify
+              brightness, contrast, exposure, and saturation
             </div>
           </div>
         </div>
@@ -78,32 +79,32 @@ const Pricing = () => {
           </div>
           <div className='flex flex-col gap-6'>
             <div className='flex'>
-              <IoMdCheckmark className='mt-[3px] mr-2' /> Creative professional
-              editing with dynamic pacing
+              <IoMdCheckmark className='mt-[3px] mr-2 shrink-0' /> Creative
+              professional editing with dynamic pacing
             </div>
             <div className='flex'>
-              <IoMdCheckmark className='mt-[3px] mr-2' /> Fully polished merging
-              & sequencing
+              <IoMdCheckmark className='mt-[3px] mr-2 shrink-0' /> Fully
+              polished merging & sequencing
             </div>
             <div className='flex'>
-              <IoMdCheckmark className='mt-[3px] mr-2' /> Designed for
+              <IoMdCheckmark className='mt-[3px] mr-2 shrink-0' /> Designed for
               high-impact videos
             </div>
             <div className='flex'>
-              <IoMdCheckmark className='mt-[3px] mr-2' /> Rhythm-based timing
-              and transitions
+              <IoMdCheckmark className='mt-[3px] mr-2 shrink-0' /> Rhythm-based
+              timing and transitions
             </div>
             <div className='flex'>
-              <IoMdCheckmark className='mt-[3px] mr-2' /> Professional-grade
-              color grading
+              <IoMdCheckmark className='mt-[3px] mr-2 shrink-0' />{' '}
+              Professional-grade color grading
             </div>
             <div className='flex'>
-              <IoMdCheckmark className='mt-[3px] mr-2' /> Detailed exposure,
-              contrast, and tone control
+              <IoMdCheckmark className='mt-[3px] mr-2 shrink-0' /> Detailed
+              exposure, contrast, and tone control
             </div>
             <div className='flex'>
-              <IoMdCheckmark className='mt-[3px] mr-2' /> Cinema-quality color
-              enhancement
+              <IoMdCheckmark className='mt-[3px] mr-2 shrink-0' />{' '}
+              Cinema-quality color enhancement
             </div>
           </div>
         </div>
