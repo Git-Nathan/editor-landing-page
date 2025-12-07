@@ -1,3 +1,5 @@
+'use client'
+
 import { cn } from '@/utils/cn'
 import Link from 'next/link'
 import { AnchorHTMLAttributes, ReactNode } from 'react'
@@ -23,8 +25,21 @@ export function AppLink({
     return 'overflow-hidden rounded-full border border-white/50 bg-white/50 px-4 py-2 text-black shadow-[inset_0_0_6px_1px_hsl(0,0%,100%,0.5)] backdrop-blur-[12px]'
   }
 
+  const handleClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
+    if (href.startsWith('#')) {
+      e.preventDefault()
+      const element = document.querySelector(href)
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth', block: 'start' })
+      }
+    }
+    if (restProps.onClick) {
+      restProps.onClick(e)
+    }
+  }
+
   return (
-    <Link href={href} {...restProps}>
+    <Link href={href} {...restProps} onClick={handleClick}>
       <div
         className={cn(
           'cursor-pointer overflow-hidden rounded-full font-medium transition-transform duration-200 ease-in-out hover:scale-105',

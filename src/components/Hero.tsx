@@ -8,6 +8,7 @@ const Hero = () => {
 
   return (
     <section
+      id='home'
       ref={heroRef}
       className='flex justify-center overflow-x-clip pt-8 pb-20 md:pt-5 md:pb-10'
       style={{

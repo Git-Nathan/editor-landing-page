@@ -45,22 +45,38 @@ export function MobileSideBar() {
         </div>
         <ul className='mt-4 space-y-3'>
           <li>
-            <AppLink className='text-neutral-800' href='#home'>
+            <AppLink
+              className='text-neutral-800'
+              href='#home'
+              onClick={handleToggleOpenSideBar}
+            >
               Home
             </AppLink>
           </li>
           <li>
-            <AppLink className='text-neutral-800' href='#about'>
+            <AppLink
+              className='text-neutral-800'
+              href='#about'
+              onClick={handleToggleOpenSideBar}
+            >
               Portfolio
             </AppLink>
           </li>
           <li>
-            <AppLink className='text-neutral-800' href='#services'>
+            <AppLink
+              className='text-neutral-800'
+              href='#services'
+              onClick={handleToggleOpenSideBar}
+            >
               Pricing
             </AppLink>
           </li>
           <li>
-            <AppLink className='text-neutral-800' href='#contact'>
+            <AppLink
+              className='text-neutral-800'
+              href='#contact'
+              onClick={handleToggleOpenSideBar}
+            >
               Contact
             </AppLink>
           </li>

@@ -2,7 +2,7 @@ import { IoMdCheckmark } from 'react-icons/io'
 
 const Pricing = () => {
   return (
-    <div className='mb-8'>
+    <div id='services' className='mb-8'>
       <div className='mx-auto mt-16 mb-12 flex max-w-[700px] flex-col items-center px-12 font-medium'>
         <div className='w-fit rounded-xl border-2 border-slate-300/80 p-0.5 px-3 text-sm'>
           Boost your business
@@ -21,7 +21,20 @@ const Pricing = () => {
         <div className='max-w-[307px] rounded-2xl border-2 border-gray-100 p-8 shadow-xl'>
           <div className='font-bold text-gray-500'>Standard Package</div>
           <div className='py-8'>
-            <span className='text-5xl font-extrabold'>$35</span>
+            <div className='mb-2'>
+              <span className='text-5xl font-extrabold'>$35</span>
+              <span className='text-sm text-gray-600'>
+                {' '}
+                for videos under 90s
+              </span>
+            </div>
+            <div>
+              <span className='text-3xl font-bold'>$45</span>
+              <span className='text-sm text-gray-600'>
+                {' '}
+                for videos over 90s
+              </span>
+            </div>
           </div>
           <div className='flex flex-col gap-3'>
             <div className='flex'>
@@ -47,7 +60,20 @@ const Pricing = () => {
             </div>
           </div>
           <div className='py-8'>
-            <span className='text-5xl font-extrabold'>$50</span>
+            <div className='mb-2'>
+              <span className='text-5xl font-extrabold'>$50</span>
+              <span className='text-sm text-gray-400'>
+                {' '}
+                for videos under 90s
+              </span>
+            </div>
+            <div>
+              <span className='text-3xl font-bold'>$65</span>
+              <span className='text-sm text-gray-400'>
+                {' '}
+                for videos over 90s
+              </span>
+            </div>
           </div>
           <div className='flex flex-col gap-6'>
             <div className='flex'>
@@ -75,7 +101,20 @@ const Pricing = () => {
         <div className='max-w-[307px] rounded-2xl border-2 border-gray-100 p-8 shadow-xl'>
           <div className='font-bold text-gray-500'>High-end Package</div>
           <div className='py-8'>
-            <span className='text-5xl font-extrabold'>$80</span>
+            <div className='mb-2'>
+              <span className='text-5xl font-extrabold'>$80</span>
+              <span className='text-sm text-gray-600'>
+                {' '}
+                for videos under 90s
+              </span>
+            </div>
+            <div>
+              <span className='text-3xl font-bold'>$100</span>
+              <span className='text-sm text-gray-600'>
+                {' '}
+                for videos over 90s
+              </span>
+            </div>
           </div>
           <div className='flex flex-col gap-6'>
             <div className='flex'>

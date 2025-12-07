@@ -9,6 +9,7 @@ const CTA = () => {
 
   return (
     <div
+      id='contact'
       ref={sectionRef}
       className='flex flex-col items-center overflow-x-clip bg-gradient-to-t from-[#afbbe4] to-white px-14 pt-16 pb-24'
     >

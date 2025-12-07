@@ -1,8 +1,9 @@
-import Image from 'next/image'
-
 const Portfolio: React.FC = () => {
   return (
-    <div className='flex flex-col items-center overflow-x-hidden pb-24'>
+    <div
+      id='about'
+      className='flex flex-col items-center overflow-x-hidden pb-24'
+    >
       <div className='mx-auto mt-20 flex flex-col items-center px-8 font-medium md:w-[550px] lg:w-[630px]'>
         <div className='w-fit rounded-xl border-2 border-slate-300/80 p-0.5 px-3 text-sm'>
           Portfolio
@@ -17,38 +18,49 @@ const Portfolio: React.FC = () => {
         </div>
       </div>
 
-      <div className='flex flex-col items-center justify-center gap-16 px-8 pt-4 lg:flex-row'>
-        <div className='flex max-w-[400px] flex-col items-center justify-center rounded-xl p-8 shadow-2xl'>
-          <Image
-            src={'/assets/cube-helix-1.png'}
-            alt='Helix'
-            className='pb-4'
-            width={330}
-            height={329}
-          />
-          <div className='pb-3 text-center text-2xl font-bold'>
-            Integration ecosystem
-          </div>
-          <div className='text-center'>
-            Enhance your productivity by connecting with your favorite tools,
-            keeping all your essentials in one place.
+      <div className='flex w-full flex-wrap items-center justify-center gap-16 px-8 pt-4'>
+        <div className='flex w-full max-w-[360px] flex-col items-center justify-center rounded-xl p-4 shadow-2xl'>
+          <div
+            className='relative w-full overflow-hidden rounded-2xl shadow-lg'
+            style={{ aspectRatio: '9/16' }}
+          >
+            <iframe
+              src={`https://www.youtube.com/embed/M0BsRedTPp8`}
+              title='YouTube Short 1'
+              allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
+              allowFullScreen
+              className='absolute top-0 left-0 h-full w-full'
+            ></iframe>
           </div>
         </div>
 
-        <div className='flex max-w-[400px] flex-col items-center justify-center rounded-xl p-8 shadow-2xl'>
-          <Image
-            src={'/assets/cube-helix.png'}
-            alt='Cube'
-            className='pb-4'
-            width={330}
-            height={329}
-          />
-          <div className='pb-3 text-center text-2xl font-bold'>
-            Goal setting and tracking
+        <div className='flex w-full max-w-[360px] flex-col items-center justify-center rounded-xl p-4 shadow-2xl'>
+          <div
+            className='relative w-full overflow-hidden rounded-2xl shadow-lg'
+            style={{ aspectRatio: '9/16' }}
+          >
+            <iframe
+              src={`https://www.youtube.com/embed/YO5O-y4ihyo`}
+              title='YouTube Short 2'
+              allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
+              allowFullScreen
+              className='absolute top-0 left-0 h-full w-full'
+            ></iframe>
           </div>
-          <div className='text-center'>
-            Define and track your goals, breaking down objectives into
-            achievable tasks to keep your targets in sight.
+        </div>
+
+        <div className='flex w-full max-w-[360px] flex-col items-center justify-center rounded-xl p-4 shadow-2xl'>
+          <div
+            className='relative w-full overflow-hidden rounded-2xl shadow-lg'
+            style={{ aspectRatio: '9/16' }}
+          >
+            <iframe
+              src={`https://www.youtube.com/embed/UcPriL62Pkk`}
+              title='YouTube Short 3'
+              allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
+              allowFullScreen
+              className='absolute top-0 left-0 h-full w-full'
+            ></iframe>
           </div>
         </div>
       </div>
