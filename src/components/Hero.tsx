@@ -23,7 +23,8 @@ const Hero = () => {
               LioSmooth Based In Vietnam
             </div>
             <h1 className='mt-6 bg-gradient-to-b from-black to-[#001E80] bg-clip-text pb-2 text-5xl font-bold tracking-tighter text-transparent md:text-5xl'>
-              Transform Real Estate Listings Into Eye-Catching Videos
+              Transform Real Estate Listings Into{' '}
+              <span className='text-nowrap'>Eye-Catching</span> Videos
             </h1>
             <p className='mt-4 text-lg'>
               Fast, affordable, and professional video editing for real estate
