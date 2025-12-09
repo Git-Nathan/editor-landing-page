@@ -150,9 +150,11 @@ const Pricing = () => {
       </div>
 
       <div className='mb-8 px-4 text-center text-lg md:text-xl'>
-        All: Stabilization, Motion Blur, Speed Ramp Up to 3 Full Revision Rounds
+        All: Stabilization, Motion Blur, Speed Ramp
         <br />
-        Included Add-ons (extra fee): Al, Effects, Graphics, VO...
+        Up to 3 Full Revision Rounds Included
+        <br />
+        Add-ons (extra fee): Al, Effects, Graphics, VO...
         <br />
         studio@liosmooth.com Send me a DM on Instagram for a detailed quote
       </div>

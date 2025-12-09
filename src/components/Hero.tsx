@@ -20,7 +20,7 @@ const Hero = () => {
         <div className='items-center gap-10 lg:flex'>
           <div className='md:w-[478px]'>
             <div className='inline-flex rounded-lg border border-[#222]/10 px-3 py-1 text-sm tracking-tight'>
-              LioSmooth
+              LioSmooth Based In Vietnam
             </div>
             <h1 className='mt-6 bg-gradient-to-b from-black to-[#001E80] bg-clip-text pb-2 text-5xl font-bold tracking-tighter text-transparent md:text-5xl'>
               Transform Real Estate Listings Into Eye-Catching Videos
