@@ -36,7 +36,9 @@ export function Header() {
           </nav>
           <div className='flex items-center gap-2'>
             <AppLink
-              href='#'
+              href='https://www.instagram.com/studio.liosmooth'
+              target='_blank'
+              rel='noreferrer'
               className='border-none bg-gradient-to-tr from-[#f58529] via-[#dd2a7b] to-[#8134af] text-sm text-white shadow-[inset_0_0_6px_1px_hsl(0,0%,100%,0.3)] lg:text-base'
             >
               Message Us on Instagram

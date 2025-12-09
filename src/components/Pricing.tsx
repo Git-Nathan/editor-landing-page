@@ -17,7 +17,7 @@ const Pricing = () => {
         </div>
       </div>
 
-      <div className='flex flex-col items-center justify-center gap-8 pb-20 lg:flex-row lg:items-end'>
+      <div className='flex flex-col items-center justify-center gap-8 pb-10 lg:flex-row lg:items-end'>
         <div className='max-w-[307px] rounded-2xl border-2 border-gray-100 p-8 shadow-xl'>
           <div className='font-bold text-gray-500'>Standard Package</div>
           <div className='py-8'>
@@ -147,6 +147,14 @@ const Pricing = () => {
             </div>
           </div>
         </div>
+      </div>
+
+      <div className='mb-8 px-4 text-center text-lg md:text-xl'>
+        All: Stabilization, Motion Blur, Speed Ramp Up to 3 Full Revision Rounds
+        <br />
+        Included Add-ons (extra fee): Al, Effects, Graphics, VO...
+        <br />
+        studio@liosmooth.com Send me a DM on Instagram for a detailed quote
       </div>
     </div>
   )

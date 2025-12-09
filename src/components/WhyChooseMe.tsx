@@ -79,7 +79,7 @@ const WhyChooseMe = () => {
           <FlashIcon className='mb-3' />
           <div className='text-2xl font-bold'>Fast Turnaround</div>
           <div className='my-2 text-lg'>
-            Delivering projects within 24–48 hours — because I know your
+            Delivering projects within 12-24 hours — because I know your
             listings can’t wait.
           </div>
           <div className='text-lg font-medium'>

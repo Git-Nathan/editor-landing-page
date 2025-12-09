@@ -52,18 +52,19 @@ const CTA = () => {
 
         <div className='mt-4 flex flex-col items-center gap-4 text-lg'>
           <AppLink
-            href='#'
+            href='https://www.instagram.com/studio.liosmooth'
+            target='_blank'
+            rel='noreferrer'
             className='border-none bg-gradient-to-tr from-[#f58529] via-[#dd2a7b] to-[#8134af] text-sm text-white shadow-[inset_0_0_6px_1px_hsl(0,0%,100%,0.3)] lg:text-base'
           >
             Message Us on Instagram
           </AppLink>
-          <AppLink
-            variant='darkGlass'
-            className='text-sm lg:text-base'
-            href='#'
+          <a
+            href='mailto:studio@liosmooth.com'
+            className='cursor-pointer overflow-hidden rounded-full border border-black/50 bg-black/60 px-4 py-2 text-sm text-white shadow-[inset_0_0_6px_1px_hsl(0,0%,0%,0.5)] backdrop-blur-[12px] transition-transform duration-200 ease-in-out hover:scale-105 lg:text-base'
           >
             Contact via Gmail
-          </AppLink>
+          </a>
         </div>
       </div>
     </div>
