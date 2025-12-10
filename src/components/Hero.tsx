@@ -19,8 +19,22 @@ const Hero = () => {
       <div className='max-w-[1400px] px-6 lg:px-20'>
         <div className='items-center gap-10 lg:flex'>
           <div className='md:w-[478px]'>
-            <div className='inline-flex rounded-lg border border-[#222]/10 px-3 py-1 text-sm tracking-tight'>
-              LioSmooth Based In Vietnam
+            <div className='inline-flex items-center gap-2 rounded-lg border border-[#222]/10 px-3 py-1 font-semibold tracking-tight'>
+              <p>LioSmooth Vietnam</p>
+              <svg
+                width='30'
+                height='20'
+                viewBox='0 0 30 20'
+                xmlns='http://www.w3.org/2000/svg'
+                version='1.1'
+                className='rounded'
+              >
+                <rect width='30' height='20' fill='#da251d' />
+                <polygon
+                  points='15,4 11.47,14.85 20.71,8.15 9.29,8.15 18.53,14.85'
+                  fill='#ff0'
+                />
+              </svg>
             </div>
             <h1 className='mt-6 bg-gradient-to-b from-black to-[#001E80] bg-clip-text pb-2 text-5xl font-bold tracking-tighter text-transparent md:text-5xl'>
               Transform Real Estate Listings Into{' '}
