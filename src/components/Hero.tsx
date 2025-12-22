@@ -18,7 +18,7 @@ const Hero = () => {
     >
       <div className='max-w-[1400px] px-6 lg:px-20'>
         <div className='items-center gap-10 lg:flex'>
-          <div className='md:w-[478px]'>
+          <div className='mt-15 md:w-[478px] lg:mt-0'>
             <div className='inline-flex items-center gap-2 rounded-lg border border-[#222]/10 px-3 py-1 font-semibold tracking-tight'>
               <p>LioSmooth Vietnam</p>
               <svg
@@ -44,7 +44,15 @@ const Hero = () => {
               Fast, affordable, and professional video editing for real estate
               agents and agencies.
             </p>
-            <Button variant='darkGlass' className='mt-6 text-lg font-medium'>
+            <Button
+              variant='darkGlass'
+              className='mt-6 text-lg font-medium'
+              onClick={() => {
+                document
+                  .getElementById('about')
+                  ?.scrollIntoView({ behavior: 'smooth' })
+              }}
+            >
               View My Videos
             </Button>
           </div>

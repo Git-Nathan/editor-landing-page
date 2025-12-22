@@ -156,7 +156,7 @@ const Pricing = () => {
         <br />
         Add-ons (extra fee): Al, Effects, Graphics, VO...
         <br />
-        studio@liosmooth.com
+        📧: studio@liosmooth.com
         <br />
         Send me a DM on Instagram for a detailed quote
       </div>
