@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import { DM_Sans } from 'next/font/google'
+import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
 import { Header } from '@/layouts/Header'
 import { Footer } from '@/layouts/Footer'
@@ -27,6 +28,7 @@ export default function RootLayout({
         {children}
         <Footer />
         <div id='mobile-sidebar-portal' />
+        <Analytics />
       </body>
     </html>
   )
