@@ -22,14 +22,14 @@ const Pricing = () => {
           <div className='font-bold text-gray-500'>Standard Package</div>
           <div className='py-8'>
             <div className='mb-2'>
-              <span className='text-5xl font-extrabold'>$35</span>
+              <span className='text-5xl font-extrabold'>$30</span>
               <span className='text-sm text-gray-600'>
                 {' '}
                 for videos under 90s
               </span>
             </div>
             <div>
-              <span className='text-3xl font-bold'>$45</span>
+              <span className='text-3xl font-bold'>$40</span>
               <span className='text-sm text-gray-600'>
                 {' '}
                 for videos over 90s
